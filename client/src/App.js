@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
-import ForceUpdate from './js/R026_ForceUpdate'
+import ReactstrapBreadcrumbs from './js/R036_ReactstrapBreadcrumbs'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 function App(){
@@ -8,7 +9,7 @@ function App(){
     <div>
       <h1>Start React200!</h1>
       <p>CSS 적용하기</p>
-      <ForceUpdate/>
+      <ReactstrapBreadcrumbs/>
     </div>
   );
 }
