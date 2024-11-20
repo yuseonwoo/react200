@@ -1,15 +1,12 @@
 import React from 'react';
-import './App.css'
-import ReactstrapBreadcrumbs from './js/R036_ReactstrapBreadcrumbs'
-import 'bootstrap/dist/css/bootstrap.css'
+import Sweetalert2Basic from './js/R056_Sweetalert2Basic'
 
 
 function App(){
   return(
     <div>
       <h1>Start React200!</h1>
-      <p>CSS 적용하기</p>
-      <ReactstrapBreadcrumbs/>
+      <Sweetalert2Basic/>
     </div>
   );
 }

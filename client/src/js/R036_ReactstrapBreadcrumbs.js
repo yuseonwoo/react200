@@ -1,15 +1,15 @@
 import React,{Component} from "react";
 import {Breadcrumb, BreadcrumbItem} from 'reactstrap';
 
-class R036_ReactBreadcrumbs extends Component{
+class R036_ReactstrapBreadcrumbs extends Component {
   render(){
     return(
       <div id="top">
         <Breadcrumb tag="nav" listTag="div">
-          <BreadcrumbItem tag="a" href="http://example.com">Go Top</BreadcrumbItem>
-          <BreadcrumbItem tag="a" href="#bottom">Go Bottom</BreadcrumbItem>
+          <BreadcrumbItem tag="a" href="#top">Go_top</BreadcrumbItem>
+          <BreadcrumbItem tag="a" href="#bottom">Go_bottom</BreadcrumbItem>
         </Breadcrumb>
-        <div id="bottom" style={{marginTop:"1000px"}}> 
+        <div id="bottom" style={{marginTop:"1000px"}}>
           <span>bottom</span>
         </div>
       </div>
@@ -17,4 +17,5 @@ class R036_ReactBreadcrumbs extends Component{
   }
 }
 
-export default R036_ReactBreadcrumbs;
+
+export default R036_ReactstrapBreadcrumbs;
